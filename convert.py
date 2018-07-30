@@ -18,4 +18,4 @@ def convert(wildcard):
 
 if __name__ == "__main__" :
 
-    convert("source/*.jpg")
+    convert("source/*/cover/*.jpg")
