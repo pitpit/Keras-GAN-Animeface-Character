@@ -81,7 +81,7 @@ def test(hdff):
 if __name__ == "__main__" :
     # Thankfully the dataset is in PNG, not JPEG.
     # Anime style suffers from significant quality degradation in JPEG.
-    make_hdf5("data.hdf5", "animeface-character-dataset/thumb/*/*.png")
+    make_hdf5("data.hdf5", "source/*.png")
     #make_hdf5("data.hdf5", "animeface-character-dataset/thumb/025*/*.png")
 
     # Uncomment and run test, if you want.
